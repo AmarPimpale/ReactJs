@@ -1,18 +1,22 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Users from './Users';
-import Apple from './Users';
-import {User1} from './Users'
-import NewUser from './NewUser'
+// import Users from './Users';
+// import Apple from './Users';
+// import {User1} from './Users'
+// import NewUser from './NewUser'
+import Greet from './component/Greet';
+import Hello from './component/Hello';
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      {/* <h1>Hello World</h1>
       <Users></Users>  
       <User1></User1>
       <NewUser></NewUser>
-      <Apple></Apple>
-
+      <Apple></Apple> */}
+      <Greet></Greet>
+      <Hello/>
+      
 
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
